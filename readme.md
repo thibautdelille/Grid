@@ -77,10 +77,10 @@ You can nest your grid as much as you want; the padding and margins are set by t
 Offsets allow you to create additional space between columns in a row. They're nestable like the rest of the grid. You can use classes like `.medium-offset-1`, `.large-offset-5`, `.x-large-offset-10` and `.small-offset-3` to manipulate your column positions in different ways. You can offset up to 11 since you wouldn't ever offset a full-width column.
 
 classes:
--`.small-offset-#`: push the div to the left at the small size
--`.medium-offset-#`: push the div to the left at the medium size (inherit value from `small` if not define)
--`.large-offset-#`: push the div to the left at the large size (inherit value from `medium` if not define)
--`.x-large-offset-#`: push the div to the left at the x-large size (inherit value from `large` if not define)
+- `.small-offset-#`: push the div to the left at the small size
+- `.medium-offset-#`: push the div to the left at the medium size (inherit value from `small` if not define)
+- `.large-offset-#`: push the div to the left at the large size (inherit value from `medium` if not define)
+- `.x-large-offset-#`: push the div to the left at the x-large size (inherit value from `large` if not define)
 
 ```
 <div class="row">
