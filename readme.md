@@ -107,13 +107,13 @@ classes:
 Centered columns are placed in the middle of the row. This does not center their content but centers the grid element itself. This is accomplished by adding a class of `x-large-centered`, `large-centered`, `medium-centered` or `small-centered` depending on which breakpoint you want the columns to center on. Small versions will carry through all breakpoints if not overridden by a large version. You can center any number of columns you have. To have a column not carry its `small-centered` to `large`, add a class of `large-uncentered`.
 
 classes:
-`.small-centered`: center the div at the small size
-`.medium-centered`: center the div at the medium size (inherit value from `small` if not define)
-`.medium-uncentered`: used if small is centered and medium is uncentered
-`.large-centered`: center the div at the large size (inherit value from `medium` if not define)
-`.large-uncentered`: used if medium is centered and large is uncentered
-`.x-large-centered`: center the div at the x-large size (inherit value from `large` if not define)
-`.x-large-uncentered`: used if large is centered and x-large is uncentered
+- `.small-centered`: center the div at the small size
+- `.medium-centered`: center the div at the medium size (inherit value from `small` if not define)
+- `.medium-uncentered`: used if small is centered and medium is uncentered
+- `.large-centered`: center the div at the large size (inherit value from `medium` if not define)
+- `.large-uncentered`: used if medium is centered and large is uncentered
+- `.x-large-centered`: center the div at the x-large size (inherit value from `large` if not define)
+- `.x-large-uncentered`: used if large is centered and x-large is uncentered
 
 ```
 <div class="row">
@@ -133,22 +133,22 @@ classes:
 Using the source ordering classes you can shift columns around between the breakpoints. For instance, using `.medium-push-#` you can have a sub-nav on the left for large displays but below for small ones.
 
 classes:
-`.small-push-#`: push the div to the left on relative position at the small size
-`.medium-push-#`: push the div to the left on relative position at the medium size (inherit value from `small` if not define)
-`.large-push-#`: push the div to the left on relative position at the large size (inherit value from `medium` if not define)
-`.x-large-push-#`: push the div to the left on relative position at the x-large size (inherit value from `large` if not define)
+- `.small-push-#`: push the div to the left on relative position at the small size
+- `.medium-push-#`: push the div to the left on relative position at the medium size (inherit value from `small` if not define)
+- `.large-push-#`: push the div to the left on relative position at the large size (inherit value from `medium` if not define)
+- `.x-large-push-#`: push the div to the left on relative position at the x-large size (inherit value from `large` if not define)
 
-`.small-pull-#`: push the div to the right on relative position at the small size
-`.medium-pull-#`: push the div to the right on relative position at the medium size (inherit value from `small` if not define)
-`.large-pull-#`: push the div to the right on relative position at the large size (inherit value from `medium` if not define)
-`.x-large-pull-#`: push the div to the right on relative position at the x-large size (inherit value from `large` if not define)
+- `.small-pull-#`: push the div to the right on relative position at the small size
+- `.medium-pull-#`: push the div to the right on relative position at the medium size (inherit value from `small` if not define)
+- `.large-pull-#`: push the div to the right on relative position at the large size (inherit value from `medium` if not define)
+- `.x-large-pull-#`: push the div to the right on relative position at the x-large size (inherit value from `large` if not define)
 
-`.medium-unpush`: cancel the push value from small size
-`.medium-unpull`: cancel the pull value from small size
-`.large-unpush`: cancel the push value from medium size
-`.large-unpull`: cancel the pull value from medium size
-`.x-large-unpush`: cancel the push value from large size
-`.x-large-unpull`: cancel the pull value from large size
+- `.medium-unpush`: cancel the push value from small size
+- `.medium-unpull`: cancel the pull value from small size
+- `.large-unpush`: cancel the push value from medium size
+- `.large-unpull`: cancel the pull value from medium size
+- `.x-large-unpush`: cancel the push value from large size
+- `.x-large-unpull`: cancel the pull value from large size
 
 ```
 <div class="row">
@@ -168,22 +168,22 @@ Visibility
 
 You can set div visible or hidden at different break points by using the class `visible_#{size}` or `hidden_#{size}`. This framework is mobile first so if you to want hide a div on small size only you need to give 2 classes to your div `.hidden_small` and `.visible_medium`
 
-`.visible_small`: default value
-`.visible_medium`: set the div display:block on medium size (inherit from .visible_small)
-`.visible_large`: set the div display:block on large size (inherit from .visible_medium)
-`.visible_x-large`: set the div display:block on x-large size (inherit from .visible_large)
-`.hidden_small`: set the div display:none on small size
-`.hidden_medium`: set the div display:none on medium size (inherit from .visible_small)
-`.hidden_large`: set the div display:none on large size (inherit from .visible_medium)
-`.hidden_x-large`: set the div display:none on x-large size (inherit from .visible_large)
+- `.visible_small`: default value
+- `.visible_medium`: set the div display:block on medium size (inherit from .visible_small)
+- `.visible_large`: set the div display:block on large size (inherit from .visible_medium)
+- `.visible_x-large`: set the div display:block on x-large size (inherit from .visible_large)
+- `.hidden_small`: set the div display:none on small size
+- `.hidden_medium`: set the div display:none on medium size (inherit from .visible_small)
+- `.hidden_large`: set the div display:none on large size (inherit from .visible_medium)
+- `.hidden_x-large`: set the div display:none on x-large size (inherit from .visible_large)
 
 Floats
 
-`.float-right_{#size}`: set the div float:right for the define {#size}
-`.float-left_{#size}`: set the div float:left for the define {#size}
-`.float-none_{#size}`: set the div float:none for the define {#size}
+- `.float-right_{#size}`: set the div float:right for the define {#size}
+- `.float-left_{#size}`: set the div float:left for the define {#size}
+- `.float-none_{#size}`: set the div float:none for the define {#size}
 
 Padding
 
-`.padded_{#size}`: set the div a padding to $spacing for the define {#size}
-`.padded-none_{#size}`: set the div a padding to 0 for the define {#size}
+- `.padded_{#size}`: set the div a padding to $spacing for the define {#size}
+- `.padded-none_{#size}`: set the div a padding to 0 for the define {#size}
