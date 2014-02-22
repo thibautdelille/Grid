@@ -1,20 +1,13 @@
 # Grid System
------------------------------------------------
-
 Powerful multi-device layouts for 12-column, nestable grid.
 
------------------------------------------------
 ## Installations
------------------------------------------------
-
 1. Clone the project
 2. Run `npm install`
 3. Make sure you have the Grunt command-line interface with `npm install -g grunt-cli`
 4. Run `grunt dev` to start watching for file saves & run a local web server at port 8000 ([localhost:8000](http://localhost:8000/)).
 
------------------------------------------------
 ## Predefined HTML Classes
------------------------------------------------
 These are examples of different ways to use the Grid. Since this Framework is mobile-first, we'll stack content by default. There are 4 different grids based on 3 different break points to allow you to create fairly complex layouts and even drop columns:
 
 - `small` < 768
@@ -49,9 +42,7 @@ classes:
 </div>
 ```
 
------------------------------------------------
 ## Nesting
------------------------------------------------
 You can nest your grid as much as you want; the padding and margins are set by the class content.
 
 ```
@@ -71,9 +62,7 @@ You can nest your grid as much as you want; the padding and margins are set by t
 </div>
 ```
 
------------------------------------------------
 ## Offsets
------------------------------------------------
 Offsets allow you to create additional space between columns in a row. They're nestable like the rest of the grid. You can use classes like `.medium-offset-1`, `.large-offset-5`, `.x-large-offset-10` and `.small-offset-3` to manipulate your column positions in different ways. You can offset up to 11 since you wouldn't ever offset a full-width column.
 
 classes:
@@ -101,9 +90,7 @@ classes:
 </div>
 ```
 
------------------------------------------------
 ## Centered Columns
------------------------------------------------
 Centered columns are placed in the middle of the row. This does not center their content but centers the grid element itself. This is accomplished by adding a class of `x-large-centered`, `large-centered`, `medium-centered` or `small-centered` depending on which breakpoint you want the columns to center on. Small versions will carry through all breakpoints if not overridden by a large version. You can center any number of columns you have. To have a column not carry its `small-centered` to `large`, add a class of `large-uncentered`.
 
 classes:
@@ -127,9 +114,7 @@ classes:
 </div>
 ```
 
------------------------------------------------
 ## Source Ordering
------------------------------------------------
 Using the source ordering classes you can shift columns around between the breakpoints. For instance, using `.medium-push-#` you can have a sub-nav on the left for large displays but below for small ones.
 
 classes:
@@ -161,9 +146,7 @@ classes:
 </div>
 ```
 
------------------------------------------------
 ## Responsive utility classes
------------------------------------------------
 Visibility
 
 You can set div visible or hidden at different break points by using the class `visible_#{size}` or `hidden_#{size}`. This framework is mobile first so if you to want hide a div on small size only you need to give 2 classes to your div `.hidden_small` and `.visible_medium`
