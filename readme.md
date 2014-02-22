@@ -5,7 +5,8 @@ Powerful multi-device layouts for 12-column, nestable grid.
 1. Clone the project
 2. Run `npm install`
 3. Make sure you have the Grunt command-line interface with `npm install -g grunt-cli`
-4. Run `grunt dev` to start watching for file saves & run a local web server at port 8000 ([localhost:8000](http://localhost:8000/)).
+4. Run `grunt` to generate the dist folder
+5. Run `grunt dev` to start watching for file saves & run a local web server at port 8000 ([localhost:8000](http://localhost:8000/)).
 
 ## Predefined HTML Classes
 These are examples of different ways to use the Grid. Since this Framework is mobile-first, we'll stack content by default. There are 4 different grids based on 3 different break points to allow you to create fairly complex layouts and even drop columns:
